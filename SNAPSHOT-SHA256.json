@@ -1,0 +1,156 @@
+{
+  "created_at": "2026-10-26T06:12:18.791Z",
+  "scope": "source snapshot only, not submission proof",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 40,
+      "sha256": "2fafa046037c4cdf5d14d6e7ce94efceb90e44253b5b28920317e7e3d2b1670b"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 312,
+      "sha256": "364b6160260a428edec78ca294ab8a5979f826e9569f2f9f7e5d73e6034d88b7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 70,
+      "sha256": "ca18f5dfddb44badeca101693e384cf4e9dc62a3dfab8348f16a7a059d100072"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 236,
+      "sha256": "27356bdaaa908f2a9e2295a9d794fb429cffffef4d14ad2b66eb33f6cacf7b73"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "8584d91510cd1fa2d3e0f7ce8a808d1b9cd2820af361b8647affd4ca0134eccd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5958,
+      "sha256": "debba0bb107a4e48caded52d83b65c2bcc1753607ce9b28d74746b1f2bf29c34"
+    },
+    {
+      "path": "docs/engineering/problem-log.md",
+      "bytes": 3163,
+      "sha256": "1baa179c38dbbfaecafb096a232a2652e3d7fadc607d195723585b750a9a1c7b"
+    },
+    {
+      "path": "docs/evidence/policy-revalidation.json",
+      "bytes": 525,
+      "sha256": "fe2466cc8ce7cca8e33b987757ceb53661000a01d10adf6cfa259e82c2802989"
+    },
+    {
+      "path": "docs/evidence/real-ai-evidence.json",
+      "bytes": 3208,
+      "sha256": "b3d5437e7483b54a5ca825d3a2e210a31d993b25ead50ecbd832927a762d9954"
+    },
+    {
+      "path": "docs/evidence/real-ai-policy-evidence.json",
+      "bytes": 2921,
+      "sha256": "f9b9b00bd1dbfbd21f5eb8bc2cc3b4a9baded8cf9e195dc10b83264cb5c8f10c"
+    },
+    {
+      "path": "docs/progress.md",
+      "bytes": 2675,
+      "sha256": "ca2a571af68dbbe1d4e9cffd8176633fad86417280e5bc398207d3f27beb5f15"
+    },
+    {
+      "path": "docs/rules-and-provenance.md",
+      "bytes": 3523,
+      "sha256": "6e54606a008e902684102794473ad97e550bbcaf8a32d875d50fb52b31b0025a"
+    },
+    {
+      "path": "docs/submission-draft.md",
+      "bytes": 3477,
+      "sha256": "e90ef0eb0aaaaf0a64bb83c0ffbaf3efcfb80a71093b246ef78699822ca9cce7"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 1327,
+      "sha256": "89a6d5ccc726653253dc775443b673b312d361676327debdbf4268e6c6569787"
+    },
+    {
+      "path": "package.json",
+      "bytes": 316,
+      "sha256": "93679b413d488ec4a5f162e5a97bf4d08b44c4c4351c2182be6df7af3ec55cc8"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 6767,
+      "sha256": "706c707dcf260e3782d2a5c2a4e5e694ed702f7646b822b16869b43e51b597a6"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 3648,
+      "sha256": "916670d3fc225eae96f40444bdb0ec61478535b46db98c90a93d954ff119a2e0"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 6404,
+      "sha256": "d9155ba1ecab1c29aab14e4f19b3ad97978b7af52731bd93c0e0362c36682941"
+    },
+    {
+      "path": "render.yaml",
+      "bytes": 644,
+      "sha256": "60b37fc6cdb6e4cbbe3bacf3e3e7cb1d73f90fe80de06b4c20fe5e2f84f6042a"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 951,
+      "sha256": "4ae9b6eac17e49248743a5cb133b2b18c5b4331c2e338d966337e9c966b07eb6"
+    },
+    {
+      "path": "scripts/evaluate-ai.mjs",
+      "bytes": 2159,
+      "sha256": "bfc0097258ebf4a9bdd70d37b67c0e8994fc6058ea1a2fe862256a7c9eed2678"
+    },
+    {
+      "path": "scripts/revalidate-stored.mjs",
+      "bytes": 955,
+      "sha256": "d695385e42bd1d61ed57349865b9056c002d2d25c93dd8bde5f150afef7b03be"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 8056,
+      "sha256": "e985809664a04429aeed8fb68a9906c370a660f73bce5738127e86b95b69d753"
+    },
+    {
+      "path": "setup-local.ps1",
+      "bytes": 1033,
+      "sha256": "f6de09af86151a14739e3747e15c0a7d58ec935ff2c0cfd4b9889f160d39ce26"
+    },
+    {
+      "path": "src/ai.mjs",
+      "bytes": 1750,
+      "sha256": "30db5094ec7c763fc23eced2a0b0dde25e3ed109f44d670d2dacb267a5243cfc"
+    },
+    {
+      "path": "src/paypal.mjs",
+      "bytes": 1811,
+      "sha256": "c31863d26ceee5fcf4a2c8e2b9821b336153fdc72927f45580f5414fd17db6cd"
+    },
+    {
+      "path": "src/quote.mjs",
+      "bytes": 2999,
+      "sha256": "41c78e13f4b12097f9adf492a5f2e359e05ab292a70cea20c10c9c170c713e01"
+    },
+    {
+      "path": "test/http.test.mjs",
+      "bytes": 1982,
+      "sha256": "eac4a38e48e8b2ce327bf89ceaf04803937d577d74f3c89563b34453111f9916"
+    },
+    {
+      "path": "test/paypal.test.mjs",
+      "bytes": 1383,
+      "sha256": "c45e89f01accedfdc1b7bfb27f681c576c43c664cbb34536e3eef1d8b36d402c"
+    },
+    {
+      "path": "test/quote.test.mjs",
+      "bytes": 1753,
+      "sha256": "92b0eb82de0ea1b797052f9bbf01afa3e214cb3e2930788dc8737f3cc9896f2e"
+    }
+  ]
+}

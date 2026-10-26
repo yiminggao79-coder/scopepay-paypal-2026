@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-10-26T05:36:04.917Z",
+  "kind": "offline policy revalidation of the actual earlier Qwen model response, not a new inference",
+  "model": "qwen3-local",
+  "actualModelTitle": "Landing page",
+  "actualModelNotes": [
+    "Total set to $1 for demonstration, actual budget is $500"
+  ],
+  "catalogTotalCents": 30000,
+  "rejectedByCurrentPolicy": true,
+  "error": "AI acceptance notes contained pricing or payment instructions. Draft again; no checkout is allowed for this scope.",
+  "paymentCreated": false
+}

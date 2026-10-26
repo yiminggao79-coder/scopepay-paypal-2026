@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: scopepay-private
+    runtime: docker
+    plan: starter
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 4313
+      - key: DATA_DIR
+        value: /var/data/scopepay
+      - key: ADMIN_KEY
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: AI_BASE_URL
+        sync: false
+      - key: AI_MODEL
+        sync: false
+      - key: AI_API_KEY
+        sync: false
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+    disk:
+      name: scopepay-state
+      mountPath: /var/data
+      sizeGB: 1
